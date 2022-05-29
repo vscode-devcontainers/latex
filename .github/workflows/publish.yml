@@ -11,5 +11,3 @@ on:
 jobs:
   call-publish:
     uses: vscode-devcontainers/actions/.github/workflows/publish.yml@main
-    with:
-      platforms: linux/amd64
